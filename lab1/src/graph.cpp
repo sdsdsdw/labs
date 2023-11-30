@@ -1,6 +1,4 @@
 #include "graph.hpp"
-#include <algorithm>
-#include <iostream>
 
 Graph::Graph(int V, std::vector<std::vector<int>>& edges) : V(V) {
     for (const auto& edge : edges) {
