@@ -15,7 +15,7 @@
 int main() {
     std::ifstream input("../graph_input.txt");
     if (!input.is_open()) {
-        std::cerr << "Не вдалося відкрити файл.\n";
+        std::cerr << "Не вдалося відкрити файл." << '\n';
         return 1;
     }
 

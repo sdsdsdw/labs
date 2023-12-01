@@ -13,7 +13,7 @@
 int main() {
     std::ifstream inputFile("../graph_input.txt");
     if (!inputFile.is_open()) {
-        std::cerr << "Unable to open the file." << std::endl;
+        std::cerr << "Unable to open the file." << '\n';
         return 1;
     }
 

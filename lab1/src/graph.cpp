@@ -64,8 +64,8 @@ void Graph::kruskalMST() {
     std::cout << "Мінімальне остовне дерево за алгоритмом Краскала:\n";
     int totalWeight = 0;
     for (Edge edge : result) {
-        std::cout << edge.src << " -- " << edge.dest << " вагою " << edge.weight << std::endl;
+        std::cout << edge.src << " -- " << edge.dest << " вагою " << edge.weight << '\n';
         totalWeight += edge.weight;
     }
-    std::cout << "Загальна вага дерева: " << totalWeight << std::endl;
+    std::cout << "Загальна вага дерева: " << totalWeight << '\n';
 }

@@ -34,5 +34,5 @@ void Graph::dijkstra(int source, int destination) {
             }
         }
     }
-    std::cout << "Найкоротший шлях від " << source << " до " << destination << " є: " << distance[destination] << std::endl;
+    std::cout << "Найкоротший шлях від " << source << " до " << destination << " є: " << distance[destination] << '\n';
 }

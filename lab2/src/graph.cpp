@@ -32,8 +32,8 @@ void Graph::primMST() {
     std::cout << "Мінімальне остовне дерево за алгоритмом Прима:\n";
     int totalWeight = 0;
     for (int i = 1; i < V; ++i) {
-        std::cout << "Ребро " << parent[i] << " -- " << i << " вагою " << graph[i][parent[i]] << std::endl;
+        std::cout << "Ребро " << parent[i] << " -- " << i << " вагою " << graph[i][parent[i]] << '\n';
         totalWeight += graph[i][parent[i]];
     }
-    std::cout << "Загальна вага дерева: " << totalWeight << std::endl;
+    std::cout << "Загальна вага дерева: " << totalWeight << '\n';
 }
