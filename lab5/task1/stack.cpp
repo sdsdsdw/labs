@@ -10,7 +10,7 @@ void Stack<T>::push(T value) {
 template <typename T>
 void Stack<T>::pop() {
     if (isEmpty()) {
-        std::cerr << "Error: Stack is empty. Cannot pop.\n";
+        std::cerr << "Помилка: Стек порожній. Неможливо виконати видалення.\n";
         return;
     }
     Node<T>* temp = top;
@@ -26,7 +26,7 @@ bool Stack<T>::isEmpty() const {
 template <typename T>
 T Stack<T>::findMin() const {
     if (isEmpty()) {
-        std::cerr << "Error: Stack is empty. Cannot find minimum.\n";
+        std::cerr << "Помилка: Стек порожній. Неможливо знайти мінімум.\n";
         return T();
     }
 
