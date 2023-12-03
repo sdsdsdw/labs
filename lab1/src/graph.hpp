@@ -1,6 +1,5 @@
 // graph.hpp
-#ifndef GRAPH_HPP
-#define GRAPH_HPP
+#pragma once
 
 #include <vector>
 #include <algorithm>
@@ -28,5 +27,3 @@ private:
     int find(int i);
     void Union(int x, int y);
 };
-
-#endif // GRAPH_HPP

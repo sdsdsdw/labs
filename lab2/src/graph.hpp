@@ -1,6 +1,5 @@
 // graph.hpp
-#ifndef GRAPH_H
-#define GRAPH_H
+#pragma once
 
 #include <vector>
 #include <iostream>
@@ -15,5 +14,3 @@ private:
     int V;
     std::vector<std::vector<int>> graph;
 };
-
-#endif // GRAPH_H

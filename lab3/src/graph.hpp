@@ -1,6 +1,5 @@
 // graph.hpp
-#ifndef GRAPH_HPP
-#define GRAPH_HPP
+#pragma once
 
 #include <iostream>
 #include <vector>
@@ -18,5 +17,3 @@ public:
     void addEdge(int u, int v, int weight);
     void dijkstra(int source, int destination);
 };
-
-#endif // GRAPH_HPP
